@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+a,
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+i,
+button,
+form,
+input,
+span,
+ol,
+ul,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf8f8;
+
+}
+/*== preloader css ==*/
+.preloader{
+    position: fixed;
+     z-index: 999999;
+     width: 100%;
+     height: 100%;
+     /* background: #000; */
+    
+ }
+ .preloader img{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+ }
+
+p {
+    color: #666;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+}
+
+span {
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    text-transform: lowercase;
+}
+
+h4 {
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+/* common_heading start */
+.common_heading {}
+
+.common_heading h3 {
+    font-size: 30px;
+    color: #353535;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+.common_heading p {
+    color: #666;
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+
+/* common_heading end */
+
+
+
+
+/* banner_part start */
+.banner_part{
+ background: url(../images/image-divider-2.jpg);
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    
+
+}
+.main_overlay{
+background: rgba(0, 0, 0, 0.44);
+    padding: 150px 0px;
+}
+/* banner_part end */
+
+/* happy_couple start */
+.happy_couple{
+padding: 100px 0px;
+}
+.couple_meet{
+  position: relative;
+    
+}
+.meet_overlay{
+   position: absolute;
+    top: 0;
+    left: 0;
+    height: 0%;
+    width: 83%;
+    background: rgba(0, 0, 0, 0.56);
+    opacity: 0;
+    transition: 0.4s;
+}
+.meet_overlay h2{
+ margin-top: 30%;
+}
+.couple_meet:hover .meet_overlay{
+    opacity: 1;
+    height: 100%;
+   
+
+}
+.meet_cnt{
+ margin-right: 50px;
+}
+.meet_cnt h4{
+ color: #353535;
+ padding: 30px 0px;
+}
+/* happy_couple end */
+
+/* story_part start */
+.story_part{
+padding: 100px 0px;
+}
+.story_text{
+padding: 50px 0px;
+}
+.story_text h4{
+color: #353535;
+    padding: 30px 0;
+}
+.story_text img{
+margin: 50px 0px;
+}
+.story_footer h4{
+ color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.virtical_line{
+
+}
+.virtical_line_row{
+position: relative;
+}
+.virtical_line::after{
+position: absolute;
+top: 0;
+left: 50%;
+height: 100%;
+width: 1px;
+    background: #f98d8a;;
+    content: '';
+    
+}
+
+.story_date {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: #f98d8a;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 9999;
+}
+.month{
+  padding-top: 15px;
+  margin-top: 200px;
+}
+/* story_part end */
+
+/* banner_part3 start */
+.banner_part3 h4{
+ font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.banner_part3 h5{
+ color: #fff;
+}
+/* banner_part3 end */
+
+/* weeding_part start */
+.weeding_part{
+ padding: 100px 0px;
+}
+.weeding_img{
+ background: #fff;
+  padding-bottom: 40px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.56);
+}
+.weeding_img h4{
+color: #353535;
+    padding: 30px 0px;
+}
+.weeding_img p{
+margin: 0px 10px;
+}
+/* weeding_part end */
+
+
+/* place_part start */
+.place_part{
+padding: 50px 0px;
+}
+.place_item{
+ background: #fff;
+    padding: 40px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+.place_item i{
+ height: 70px;
+width: 70px;
+line-height: 70px;
+    background: #1ead3f;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+}
+.place_item h4{
+color: #000;
+    padding: 20px 0px;
+}
+.place_item p{
+margin: 0px 15px;
+}
+
+/* place_part end */
+
+/* banner_count start */
+.banner_count .banner_content p{
+ color: #fff;
+    padding-top: 20px;
+    font-size: 14px;
+}
+/* banner_count end */
+
+/*  bridemaid_part start */
+.bridemaid_part{
+ padding: 100px 0px;
+}
+.bride_frd{
+ background: #fff;
+    padding: 50px 0px;
+    box-shadow: 0 0 5px #000;
+    margin: 20px;
+}
+.bride_frd img{
+ height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.bride_frd i{
+display: block;
+    margin-top: -10px;
+    color: #c41212;
+    background: #fff;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.bride_frd h4{
+color: #353535;
+    padding: 15px 0px;
+}
+.bride_frd h5{
+font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+/*  bridemaid_part end */
+
+/* banner_atten start */
+.gallery_part{
+padding: 100px 0px;
+}
+.gly_img{
+position: relative;
+overflow: hidden;
+    margin: 20px 0px;
+}
+
+.gly_overly{
+    position: absolute;
+  background: rgba(0, 0, 0, 0.56);
+    height: 93%;
+    width: 93%;
+    top: 0;
+    left: 0;
+    margin: 10px;
+    opacity: 0;
+    transform: scale(0);
+    transition: 0.4s;
+}
+.gly_img:hover .gly_overly{
+  opacity: 1;
+    transform: scale(1);
+}
+.gly_overly a{
+padding-top: 30px;
+margin-left: 40%;
+    line-height: 240px;
+    transform: translateX(-50%);
+}
+.gly_overly a i{
+  height: 60px;
+    width: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    background: #fff;
+    border-radius: 50%;
+    
+}
+/* banner_atten end */
+
+/* gift_part start */
+.gift_part{
+padding: 100px 0px;
+    
+    
+}
+.gift_card{
+background: #fff;
+    box-shadow: 0 0 5px #000;
+    padding: 40px 0px;
+    margin: 20px 0px;
+}
+.gift_card a img{
+ padding-bottom: 20px;
+}
+.gift_card p{
+margin: 0px 15px;
+}
+/* gift_part end */
+
+/* contact_form start */
+.contact_form{
+background: #f1f1f1;
+padding: 100px 0px;
+}
+/* contact_form end */
+
+
